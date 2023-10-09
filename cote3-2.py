@@ -19,14 +19,15 @@ big2 = data[n-2]
 result = 0
 
 while True:
-    for i in range(k):
+    for i in range(k): #k번 먼저 실행하고
         if m == 0:
             break
-        result += big1
+        result += big1 #다시 큰 수 더해주기
         m = m - 1
     if m == 0:
         break
-    result += big2
+    result += big2 #다른 수 더해준 다음
     m = m-1
 
 print(result)
+
