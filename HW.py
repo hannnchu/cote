@@ -18,7 +18,10 @@ print("the Jaccard similarity coefficient is {:.3f}".format(jaccard_similarity_c
 
 # 3
 # find, index 사용 , for문 (발견하고 break)
-
+sentence = input("Enter a sentence")
+word1 = input("Enter word to replace")
+word2 = input("Enter replacement word")
+sentence.find(word1)
 # 4
 # sorted x (sort method)
 # 짝홀수 if문으로 나누기
